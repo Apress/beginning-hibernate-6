@@ -1,0 +1,37 @@
+{
+  "HelloServlet": {
+    "class": "chapter11.servlets.HelloWorld",
+    "initParams": {
+      "message": "Hello World"
+    },
+    "mapping": "/hello"
+  },
+  "BadAddUserServlet": {
+    "class": "chapter11.servlets.BadAddUserServlet",
+    "mapping": "/badadduser"
+  },
+  "AddUserServlet": {
+    "class": "chapter11.servlets.AddUserServlet",
+    "mapping": "/adduser"
+  },
+  "SimpleGetPostsServlet": {
+    "class": "chapter11.servlets.SimpleGetPostsServlet",
+    "mapping": "/simplegetposts"
+  },
+  "AddPostServlet": {
+    "class": "chapter11.servlets.AddPostServlet",
+    "mapping": "/addpost"
+  },
+  "GetPostsServlet": {
+    "class": "chapter11.servlets.GetPostsServlet",
+    "mapping": "/getposts"
+  },
+  "GetPostServlet": {
+    "class": "chapter11.servlets.GetPostServlet",
+    "mapping": "/getpost"
+  },
+  "AddCommentServlet": {
+    "class": "chapter11.servlets.AddCommentServlet",
+    "mapping": "/addcomment"
+  }
+}
