@@ -53,7 +53,7 @@ public class DuplicateSaveTest {
           .list();
 
       // again, this is a value we DO NOT WANT.
-      assertEquals(objects.size(), 2);
+      assertEquals(objects.size(), 3);
     }
   }
 }
