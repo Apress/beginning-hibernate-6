@@ -15,7 +15,7 @@
     <!--  Echo all executed SQL to stdout  -->
     <property name="show_sql">true</property>
     <!--  Drop and re-create the database schema on startup  -->
-    <property name="hbm2ddl.auto">create</property>
+    <property name="hbm2ddl.auto">create-drop</property>
 
     <mapping class="chapter06.primarykey.after.Book"/>
     <mapping class="chapter06.compoundpk.CPKBook"/>
